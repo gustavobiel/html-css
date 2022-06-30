@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio de tabelas mescladas</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            height: 98vh;
+        }
+        table{
+            border-collapse: collapse;
+            border: 2px solid green;
+        }
+
+        td {
+            border: 1px solid black;
+            padding: 10px;
+            width: 100px;
+            text-align: center;
+            background-color: rgba(135, 207, 235, 0.817);
+            color: rgb(208, 66, 41);
+        }
+
+        caption {
+            background-color: deeppink;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            font-size: large;
+        }
+
+    </style>
+</head>
+<body>
+    <table>
+        <caption>Primeiro desafio de mesclagem de tabela</caption>
+        <tbody>
+            <tr>
+                <td colspan="4">A</td>
+                <td rowspan="4">B</td>
+                
+            </tr>
+            <tr>
+                <td rowspan="4">C</td>
+                <td>D</td>
+                <td>E</td>
+                <td>F</td>
+                
+            </tr>
+            <tr>
+                <td>G</td>
+                <td>H</td>
+                <td>I</td>
+                               
+            </tr>
+            <tr>
+                <td>J</td>
+                <td>L</td>
+                <td>M</td>
+                               
+            </tr>
+            <tr>
+              <td colspan="4">N</td>                              
+            </tr>
+
+        </tbody>
+    </table>
+</body>
+</html>
